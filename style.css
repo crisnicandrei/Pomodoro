@@ -1,0 +1,42 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: #14803f;
+}
+#container {
+    
+    border-radius:5px;
+    box-shadow: 2px 2px 0px 0px black ;
+    font-size: 3em;
+    position:absolute;
+    top:35%;
+    align-content: center;
+    background-color:#1a231a;
+    width: 200px;
+    text-align: center;
+    
+}
+#container span
+{
+    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+}
+#timer
+{
+    background-color: #254125;
+
+}
+button
+{
+    height:50px;
+    margin:5px;
+    border-radius: 5px;
+    font-family: Arial; 
+    font-weight: bold;
+    background-color: #2d2a32;
+    color:#d8d3de;
+    
+}
